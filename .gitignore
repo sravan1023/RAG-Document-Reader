@@ -10,11 +10,18 @@ __pycache__/
 venv/
 env/
 
-# project data (don’t commit uploads or indexes)
+# project data (donâ€™t commit uploads or indexes)
 data/*
 !data/.gitkeep
 vector_store/**
 !vector_store/.gitkeep
+
+**/data/**
+!**/data/.gitkeep
+**/vector_store/**
+!**/vector_store/.gitkeep
+**/*.faiss
+**/index.pkl
 
 # Node
 node_modules/
