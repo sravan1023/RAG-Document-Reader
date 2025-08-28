@@ -1,0 +1,17 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# project data (don’t commit uploads or indexes)
+data/*
+!data/.gitkeep
+vector_store/**
+!vector_store/.gitkeep
